@@ -3,7 +3,7 @@ Projeto voltado a criar uma aplicação de busca por eventos como por exemplo o 
 A idea por trás desse site é aprender mais sobre framework laravel e trabalhar habilidades como FullStack
 
 
-<!-- ................................. -->
+............................................. 
 
 
 Project focused on create an application to search for events like the meetup.com website
