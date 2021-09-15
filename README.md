@@ -8,4 +8,4 @@ A idea por trás desse site é aprender mais sobre framework laravel e trabalhar
 
 Project focused on create an application to search for events like the meetup.com website
 
-The idea behind it, is to learn more about frameworks like laravel e improve my skills as a FullStack developer.
+The idea behind it, is to learn more about frameworks like laravel e improve my skills as a FullStack developer..
