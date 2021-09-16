@@ -20,9 +20,13 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar"> 
-                    <a href="/" class="navbar-brand">
-                    </a>
-                    <img src="/img/unersball.png" alt="Romulo Events">
+                    <div class="brands">
+                        <a href="/" class="navbar-brand">
+                        <img src="/img/unersball.png" alt="Romulo Eventos">
+                        </a>
+                        <a href="/" id="abrand"><p class="brandline">Romulo Eventos</p></a>
+                        
+                    </div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="/" class="nav-link">Eventos</a>

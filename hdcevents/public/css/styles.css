@@ -1,5 +1,37 @@
+/* GERAL */
+
 * {
     font-family: 'Roboto';
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* FIM GERAL */
+/* CLASSES E ESPECIFICOS */
+
+.row {
+    margin: 0;
+    justify-content: center;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.brands{
+    display: flex;
+    
+    
 }
 
 header img {
@@ -8,6 +40,129 @@ header img {
     margin-left: -10px;
 }
 
-h1 {
-    color: red;
+#navbar {
+    justify-content: space-around;
+}
+
+#navbar a {
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover {
+    color: #F2A340;
+}
+
+#abrand {
+    color: black!important;
+    font-size: 13pt!important;
+    font-weight: 400;
+    margin-top: 33px;
+    margin-left: -10px;
+}
+
+#abrand:hover {
+   text-decoration: none;  
+}
+
+
+/* BARRA DE PESQUISA */
+
+#search-container {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: rgb(250, 125, 23);
+    margin-bottom: 40px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+#search-container form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* LISTA DE EVENTOS */
+
+#events-container {
+    padding: 50px;
+}
+
+#events-container h2 {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#events-container .card {
+    flex: 1 1 0;
+    max-width: 20%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 20px;
+}
+
+#events-container img {
+    max-height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date {
+    font-size: 13px;
+    color: rgb(124, 123, 123);
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.card-participants {
+    font-size: 14px;
+    color: #757575;
+}
+
+.btn-primary {
+    background-color: red;
+    border-color: red;
+}
+
+.btn-primary:hover {
+    background-color: rgb(156, 1, 1);
+    border-color: rgb(167, 0, 0);
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #353E48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin-bottom: 0;
 }
