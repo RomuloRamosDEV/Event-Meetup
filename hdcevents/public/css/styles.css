@@ -15,6 +15,16 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
+.msg {
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
 
 /* FIM GERAL */
 /* PAGINA INDEX */
@@ -23,6 +33,7 @@ header {
 .row {
     margin: 0;
     justify-content: center;
+    flex-wrap: wrap!important;
 }
 
 .container-fluid {
@@ -110,7 +121,7 @@ header img {
 }
 
 #events-container .card {
-    flex: 1 1 0;
+    /* flex: 1 1 0; */
     max-width: 20%;
     border-radius: 10px;
     padding: 0;
@@ -172,7 +183,7 @@ footer p{
 
 /* PAGINA CRIAR EVENTOS */
 .formcamp{
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 
 .formcamp h1 {
