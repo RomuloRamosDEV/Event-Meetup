@@ -182,9 +182,7 @@ footer p{
 
 
 /* PAGINA CRIAR EVENTOS */
-.formcamp{
-    /* max-width: 50%; */
-}
+
 
 .formcamp h1 {
     margin-top: 30px;
@@ -238,4 +236,32 @@ footer p{
 
 #items-list li{
     display: flex;
+}
+
+
+/* DASHBOARD CSS */
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.table a{
+    margin-right: 5px;
+}
+
+.tdezeras{
+    display: flex;
+}
+
+
+
+/* TELA DE EDIÇÂO DE EVENTOS */
+
+.img-preview{
+    width: 150px;
+    margin-top: 20px;
 }
